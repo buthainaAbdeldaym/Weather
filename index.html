@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="home">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="logo d-flex align-items-center">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <div class="weath ms-1">
+                        <h6>Weather</h6>
+                        <span>tagline goes here</span>
+                    </div>
+                </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="links collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Live Cameras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <div class="content pt-5">
+            <div class="container">
+                <div class="enter">
+                    <input class="input w-100 form-control" type="text" placeholder="Find your location..." value="cairo">
+                    <button type="submit" class="btn">Find</button>
+                </div>
+
+                <div class="row weather d-flex my-5 py-3">
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <div class="div1">
+                            <div class="head1 d-flex justify-content-between">
+                                <span class="day">sunday</span>
+                                <span class="date">2 May</span>
+                            </div>
+                            <div class="mx-3">
+                                <p class="city">cairo</p>
+                                <div class="degree1">
+                                    <span>30</span><sup>o</sup>C
+                                    <img class="icon"/>
+                                </div>
+                                <span class="sp sp1 d-block my-3">cold</span>
+                                <div class="cases d-flex justify-content-between">
+                                    <div>
+                                        <i class="fas fa-umbrella pr-1"></i>
+                                        <span class="case1">20</span>%
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-wind pl-3 pr-1"></i>
+                                        <span class="case2">18</span>km/h
+                                    </div>
+                                    <div>
+                                        <i class="far fa-compass pl-3 pr-1"></i>
+                                        <span class="case3"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4  mb-4 mb-lg-0">
+                        <div class="div2 text-center">
+                            <div class="head2 text-center">
+                                <p class="next-day">Monday<p>
+                            </div>
+                            <div class=" d-flex justify-content-center align-items-center flex-column py-5">
+                                <img src="https://cdn.weatherapi.com/weather/64x64/day/302.png" class="icon2"/>
+                                <div class="degrees py-2">
+                                    <span class="d-block"><span class="max-degree fs-1 fw-bold">32.7</span><sup>o</sup>C</span>
+                                    <span class="d-block"><span class="min-degree">23.7</span><sup>o</sup></span>
+                                </div>
+                                <span class="d-block sp sp2">Moderate rain</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4  mb-4 mb-lg-0">
+                        <div class="div2 div3 text-center">
+                            <div class="head2 text-center">
+                                <p class="next-day">Monday<p>
+                            </div>
+                            <div class=" d-flex justify-content-center align-items-center flex-column py-5">
+                                <img src="https://cdn.weatherapi.com/weather/64x64/day/302.png" class="icon2"/>
+                                <div class="degrees py-2">
+                                    <span class="d-block"><span class="max-degree fs-1 fw-bold">32.7</span><sup>o</sup>C</span>
+                                    <span class="d-block"><span class="min-degree">23.7</span><sup>o</sup></span>
+                                </div>
+                                <span class="d-block sp sp2">Moderate rain</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <div class="footer">
+            <div class="div px-4 mb-4">
+                <div class="sub">
+                    <input type="text" class="form-control" placeholder="Enter your email to subscribe...">
+                    <button type="submit">Subscribe</button>
+                </div>
+                <div class="media">
+                    <div><i class="fa-brands fa-facebook"></i></div>
+                    <div><i class="fa-brands fa-twitter"></i></div>
+                    <div><i class="fa-brands fa-google-plus-g"></i></div>
+                    <div><i class="fa-brands fa-pinterest"></i></div>
+                </div>
+            </div>
+            <p class="text-center pt-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
